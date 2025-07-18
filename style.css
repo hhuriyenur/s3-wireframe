@@ -6,3 +6,44 @@
 /* #menu linklerinin padding değeri: 20px */
 
 /* #footer butonu metni 'Başa dön' olmalı */
+
+#header{
+    display: flex;
+    width: 750px;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+   
+}
+ h2{
+    margin-left: 0;
+    
+}
+#menu{
+    display: flex;
+    background-color: #777;
+    padding: 20px;
+    gap: 30px;
+    align-items: flex-end;
+    
+}
+
+#menu a{
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+    color: white;
+    background-color: #777;
+    padding: 20px;
+    flex-grow: 1;
+}
+#menu a:hover{
+    background-color:  #000;
+}
+
+#hero{
+    width: 750px;
+    background-color: #777;
+    color: white;
+    gap: 30px;
+}

@@ -1,0 +1,96 @@
+{
+  "stats": {
+    "expected": 9,
+    "unexpected": 4,
+    "skipped": 0,
+    "flaky": 0,
+    "duration": 120336
+  },
+  "tests": [
+    {
+      "title": "#header genişliği doğru olmalı",
+      "status": "passed",
+      "duration": 35
+    },
+    {
+      "title": "#header yatay hizalaması doğru olmalı",
+      "status": "passed",
+      "duration": 10
+    },
+    {
+      "title": "#header başlığı ve menü iki yana yaslı olmalı",
+      "status": "passed",
+      "duration": 13
+    },
+    {
+      "title": "#header içeriği dikey olarak ortalanmalı",
+      "status": "passed",
+      "duration": 8
+    },
+    {
+      "title": "#menu esnek bir düzen kullanmalı",
+      "status": "passed",
+      "duration": 7
+    },
+    {
+      "title": "#menu bir NAV tagi olmalı",
+      "status": "passed",
+      "duration": 9
+    },
+    {
+      "title": "#menu linklerinin arka plan rengi doğru olmalı",
+      "status": "passed",
+      "duration": 13
+    },
+    {
+      "title": "#menu linklerinin arka plan rengi üzerine gelindiğinde değişmeli",
+      "status": "passed",
+      "duration": 40
+    },
+    {
+      "title": "#menu bağlantılarının iç boşluğu doğru olmalı",
+      "status": "passed",
+      "duration": 52
+    },
+    {
+      "title": "#hero display özelliği doğru olmalı",
+      "status": "failed",
+      "duration": 8
+    },
+    {
+      "title": "#hero içeriği dikey olarak sıralı olmalı",
+      "status": "failed",
+      "duration": 38
+    },
+    {
+      "title": "#hero içeriği yatay ve dikey olarak ortalanmalı",
+      "status": "failed",
+      "duration": 37
+    },
+    {
+      "title": "#hero içeriği dikey olarak ortalanmalı",
+      "status": "failed",
+      "duration": 38
+    },
+    {
+      "title": "#gallery genişliği doğru olmalı",
+      "status": "timedOut",
+      "duration": 30005
+    },
+    {
+      "title": "#gallery display değeri doğru olmalı",
+      "status": "timedOut",
+      "duration": 30012
+    },
+    {
+      "title": "#gallery ögeleri arasında eşit mesafe olmalı",
+      "status": "timedOut",
+      "duration": 30006
+    },
+    {
+      "title": "#footer butonu doğru metni içermeli",
+      "status": "timedOut",
+      "duration": 30006
+    }
+  ]
+}
