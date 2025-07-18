@@ -13,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     height: 30px;
+    
    
 }
  h2{
@@ -42,8 +43,25 @@
 }
 
 #hero{
+    
+    display: flex;
     width: 750px;
+    height: 350px;
     background-color: #777;
     color: white;
-    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
 }
+#gallery{
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+#footer{
+    flex-direction: column;
+}
+
